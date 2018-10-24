@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">9</td><td class="num">0</td><td class="num attn">1</td><td class="num">54,452</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.CognitiveScale.SignUpTest</td><td><a href="#m0">validSignup</a></td><td rowspan="1">1540321046365</td><td rowspan="1">10158</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="9">com.CognitiveScale.SignUpTest</td><td><a href="#m1">createSignUp</a></td><td rowspan="9">1540321036146</td><td rowspan="9">2352</td></tr><tr class="passedeven"><td><a href="#m2">createSignUp</a></td></tr><tr class="passedeven"><td><a href="#m3">createSignUp</a></td></tr><tr class="passedeven"><td><a href="#m4">createSignUp</a></td></tr><tr class="passedeven"><td><a href="#m5">createSignUp</a></td></tr><tr class="passedeven"><td><a href="#m6">createSignUp</a></td></tr><tr class="passedeven"><td><a href="#m7">createSignUp</a></td></tr><tr class="passedeven"><td><a href="#m8">createSignUp</a></td></tr><tr class="passedeven"><td><a href="#m9">createSignUp</a></td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">com.CognitiveScale.SignUpTest#validSignup</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;skip this step&quot;}
+  (Session info: chrome=70.0.3538.67)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;INENKAKARCL1C&apos;, ip: &apos;10.0.75.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\kakarc\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60107}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.67, webStorageEnabled: true}
+Session ID: c4fb619dd0431faad805003c2ef5cbe7
+*** Element info: {Using=link text, value=skip this step}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:376)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.click(Unknown Source)
+	at projUtility.SignUpPage.skipStep(SignUpPage.java:86)
+	at com.CognitiveScale.SignUpTest.validSignup(SignUpTest.java:65)
+... Removed 38 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.CognitiveScale.SignUpTest#createSignUp</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr><tr class="param stripe"><td>Create signup without email</td><td>qweasd198</td><td></td><td>qweasd198</td><td></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.CognitiveScale.SignUpTest#createSignUp</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr><tr class="param stripe"><td>Create signup with password contains only numbers</td><td>qweasd198</td><td>qweasd198@gmail.com</td><td>2132132</td><td>Password needs at least one lowercase letter</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.CognitiveScale.SignUpTest#createSignUp</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr><tr class="param stripe"><td>Create signup with valid user,email &amp; pwd</td><td>qweasdz198</td><td>qweasd198@gmail.com</td><td>testasd123</td><td></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.CognitiveScale.SignUpTest#createSignUp</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr><tr class="param stripe"><td>Create signup with existing UserID</td><td>abc123</td><td>qweasd198</td><td>qweasd198</td><td>Login is already taken</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.CognitiveScale.SignUpTest#createSignUp</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr><tr class="param stripe"><td>Create signup without password</td><td>qweasd198</td><td>qweasd198@gmail.com</td><td></td><td></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.CognitiveScale.SignUpTest#createSignUp</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr><tr class="param stripe"><td>Create signup with valid user&amp; pwd as same as username with valid email</td><td>qweasdz198</td><td>qweasd198@gmail.com</td><td>qweasd198</td><td>Password can&apos;t be your username</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.CognitiveScale.SignUpTest#createSignUp</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr><tr class="param stripe"><td>Create signup without username</td><td></td><td>qweasd198@gmail.com</td><td>qweasd198</td><td></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.CognitiveScale.SignUpTest#createSignUp</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr><tr class="param stripe"><td>Create signup with password contains only alphabets</td><td>qweasd198</td><td>qweasd198@gmail.com</td><td>abcdefg</td><td>Password needs at least one number</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.CognitiveScale.SignUpTest#createSignUp</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr><tr class="param stripe"><td>Create signup with Invalid/Existing email</td><td>qweasd198</td><td>abc123@gmail.com</td><td>qweasd198</td><td>Email is invalid or already taken</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
