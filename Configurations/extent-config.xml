@@ -14,13 +14,13 @@
     <protocol>https</protocol>
     
     <!-- title of the document -->
-    <documentTitle>ExtentReports 2.0</documentTitle>
+    <documentTitle>ExtentReports 2.41.2</documentTitle>
     
     <!-- report name - displayed at top-nav -->
-    <reportName></reportName>
+    <reportName>CognitiveScale </reportName>
     
     <!-- report headline - displayed at top-nav, after reportHeadline -->
-    <reportHeadline>Automation Report</reportHeadline>
+    <reportHeadline> Automation Report by - Chaitanya</reportHeadline>
     
     <!-- global date format override -->
     <!-- defaults to yyyy-MM-dd -->

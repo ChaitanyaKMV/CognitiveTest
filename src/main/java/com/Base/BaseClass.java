@@ -276,7 +276,7 @@ public class BaseClass {
 
 			int totalCols = ExcelWSheet.getRow(0).getLastCellNum();
 			//totalCols = totalCols - 1;
-			Log.info("total no of rows: "+totalRows+" total columns: "+totalCols);
+			//Log.info("total no of rows: "+totalRows+" total columns: "+totalCols);
 			tabArray = new String[totalRows][totalCols];
 
 			ci = 0;
@@ -289,7 +289,7 @@ public class BaseClass {
 
 					tabArray[ci][cj] = getCellData(i, j);
 
-					Log.info(ci + "==" + cj + "== " + tabArray[ci][cj]);
+					//Log.info(ci + "==" + cj + "== " + tabArray[ci][cj]);
 
 				}
 
