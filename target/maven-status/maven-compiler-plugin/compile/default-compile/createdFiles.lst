@@ -2,6 +2,7 @@ com\Base\ExtentManager.class
 projUtility\SignUpPage.class
 com\Base\ExtentTestManager.class
 com\Base\PropertyManager.class
+com\Base\BaseAPI.class
 com\Base\TestListeners.class
 com\Base\BaseClass.class
 com\Base\Log.class

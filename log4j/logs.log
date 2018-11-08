@@ -1,201 +1,298 @@
-26/10/2018 00:22:46- com.Base.Log- 
+08/11/2018 23:37:35- com.Base.Log- 
  
 
-26/10/2018 00:22:46- com.Base.Log- ********* Test class starts ********** class org.testng.TestRunner
-26/10/2018 00:22:46- com.Base.Log- 
+08/11/2018 23:37:35- com.Base.Log- ********* Test class starts ********** class org.testng.TestRunner
+08/11/2018 23:37:35- com.Base.Log- 
  
 
-26/10/2018 00:22:46- com.Base.Log- **** Browser Launching ***** 
-26/10/2018 00:22:51- com.Base.Log- **** Navigating to URL ***** https://github.com/join
-26/10/2018 00:22:54- com.Base.Log- 
+08/11/2018 23:37:35- com.Base.Log-  ------------ Execution starts -------------
+08/11/2018 23:37:36- com.Base.Log- 
  
 
-26/10/2018 00:22:54- com.Base.Log- ***********************************************************
-26/10/2018 00:22:54- com.Base.Log- ***********************************************************
-26/10/2018 00:22:54- com.Base.Log- ************** On Test starts *************** createSignUp
-26/10/2018 00:22:54- com.Base.Log- ***********************************************************
-26/10/2018 00:22:54- com.Base.Log- ***********************************************************
-26/10/2018 00:22:55- com.Base.Log- Create signup with existing UserID
-26/10/2018 00:22:57- com.Base.Log- Enter username as: abc123
-26/10/2018 00:22:57- com.Base.Log- Enter Email as: qweasd198
-26/10/2018 00:22:57- com.Base.Log- Enter Password as: qweasd198
-26/10/2018 00:23:00- com.Base.Log- Verify error message as: Login is already taken
-26/10/2018 00:23:00- com.Base.Log-  ########## On Test success ########## createSignUp
-26/10/2018 00:23:00- com.Base.Log- 
+08/11/2018 23:37:36- com.Base.Log- ***********************************************************
+08/11/2018 23:37:36- com.Base.Log- ***********************************************************
+08/11/2018 23:37:36- com.Base.Log- ************** On Test starts *************** fetchBranchData
+08/11/2018 23:37:36- com.Base.Log- ***********************************************************
+08/11/2018 23:37:36- com.Base.Log- ***********************************************************
+08/11/2018 23:37:36- com.Base.Log- /repos/chaitu219/CognitiveTest/branches
+08/11/2018 23:37:40- com.Base.Log- ***** [master]
+08/11/2018 23:37:40- com.Base.Log- list of branch data:--> master
+08/11/2018 23:37:40- com.Base.Log-  ########## On Test success ########## fetchBranchData
+08/11/2018 23:37:40- com.Base.Log- 
  
 
-26/10/2018 00:23:00- com.Base.Log- 
+08/11/2018 23:37:40- com.Base.Log- 
  
 
-26/10/2018 00:23:00- com.Base.Log- ***********************************************************
-26/10/2018 00:23:00- com.Base.Log- ***********************************************************
-26/10/2018 00:23:00- com.Base.Log- ************** On Test starts *************** createSignUp
-26/10/2018 00:23:00- com.Base.Log- ***********************************************************
-26/10/2018 00:23:00- com.Base.Log- ***********************************************************
-26/10/2018 00:23:00- com.Base.Log- Create signup with Invalid/Existing email
-26/10/2018 00:23:02- com.Base.Log- Enter username as: qweasd198
-26/10/2018 00:23:02- com.Base.Log- Enter Email as: abc123@gmail.com
-26/10/2018 00:23:02- com.Base.Log- Enter Password as: qweasd198
-26/10/2018 00:23:04- com.Base.Log- Verify error message as: Email is invalid or already taken
-26/10/2018 00:23:04- com.Base.Log-  ########## On Test success ########## createSignUp
-26/10/2018 00:23:04- com.Base.Log- 
+08/11/2018 23:37:40- com.Base.Log- ***********************************************************
+08/11/2018 23:37:40- com.Base.Log- ***********************************************************
+08/11/2018 23:37:40- com.Base.Log- ************** On Test starts *************** fetchBranchData
+08/11/2018 23:37:40- com.Base.Log- ***********************************************************
+08/11/2018 23:37:40- com.Base.Log- ***********************************************************
+08/11/2018 23:37:40- com.Base.Log- /repos/chaitu219/CognitiveTest/branches
+08/11/2018 23:37:41- com.Base.Log- ***** [14a62eef8dfa332c83ed98328cc03b4dd1472b87]
+08/11/2018 23:37:41- com.Base.Log- list of branch data:--> 14a62eef8dfa332c83ed98328cc03b4dd1472b87
+08/11/2018 23:37:41- com.Base.Log-  ########## On Test success ########## fetchBranchData
+08/11/2018 23:37:41- com.Base.Log- 
  
 
-26/10/2018 00:23:04- com.Base.Log- 
+08/11/2018 23:37:41- com.Base.Log- 
  
 
-26/10/2018 00:23:04- com.Base.Log- ***********************************************************
-26/10/2018 00:23:04- com.Base.Log- ***********************************************************
-26/10/2018 00:23:04- com.Base.Log- ************** On Test starts *************** createSignUp
-26/10/2018 00:23:04- com.Base.Log- ***********************************************************
-26/10/2018 00:23:04- com.Base.Log- ***********************************************************
-26/10/2018 00:23:04- com.Base.Log- Create signup with password contains only alphabets
-26/10/2018 00:23:06- com.Base.Log- Enter username as: qweasd198
-26/10/2018 00:23:06- com.Base.Log- Enter Email as: qweasd198@gmail.com
-26/10/2018 00:23:06- com.Base.Log- Enter Password as: abcdefg
-26/10/2018 00:23:07- com.Base.Log- Verify error message as: Password needs at least one number
-26/10/2018 00:23:17- com.Base.Log-  ########## On Test success ########## createSignUp
-26/10/2018 00:23:17- com.Base.Log- 
+08/11/2018 23:37:41- com.Base.Log- ***********************************************************
+08/11/2018 23:37:41- com.Base.Log- ***********************************************************
+08/11/2018 23:37:41- com.Base.Log- ************** On Test starts *************** fetchBranchData
+08/11/2018 23:37:41- com.Base.Log- ***********************************************************
+08/11/2018 23:37:41- com.Base.Log- ***********************************************************
+08/11/2018 23:37:41- com.Base.Log- /repos/chaitu219/CognitiveTest/branches
+08/11/2018 23:37:42- com.Base.Log- ***** [https://api.github.com/repos/chaitu219/CognitiveTest/commits/14a62eef8dfa332c83ed98328cc03b4dd1472b87]
+08/11/2018 23:37:42- com.Base.Log- list of branch data:--> https://api.github.com/repos/chaitu219/CognitiveTest/commits/14a62eef8dfa332c83ed98328cc03b4dd1472b87
+08/11/2018 23:37:42- com.Base.Log-  ########## On Test success ########## fetchBranchData
+08/11/2018 23:37:42- com.Base.Log- 
  
 
-26/10/2018 00:23:17- com.Base.Log- 
+08/11/2018 23:37:42- com.Base.Log- 
  
 
-26/10/2018 00:23:17- com.Base.Log- ***********************************************************
-26/10/2018 00:23:17- com.Base.Log- ***********************************************************
-26/10/2018 00:23:17- com.Base.Log- ************** On Test starts *************** createSignUp
-26/10/2018 00:23:17- com.Base.Log- ***********************************************************
-26/10/2018 00:23:17- com.Base.Log- ***********************************************************
-26/10/2018 00:23:17- com.Base.Log- Create signup with password contains only numbers
-26/10/2018 00:23:19- com.Base.Log- Enter username as: qweasd198
-26/10/2018 00:23:19- com.Base.Log- Enter Email as: qweasd198@gmail.com
-26/10/2018 00:23:19- com.Base.Log- Enter Password as: 2132132
-26/10/2018 00:23:26- com.Base.Log- Verify error message as: Password needs at least one lowercase letter
-26/10/2018 00:23:26- com.Base.Log-  ########## On Test success ########## createSignUp
-26/10/2018 00:23:26- com.Base.Log- 
+08/11/2018 23:37:42- com.Base.Log- ***********************************************************
+08/11/2018 23:37:42- com.Base.Log- ***********************************************************
+08/11/2018 23:37:42- com.Base.Log- ************** On Test starts *************** fetchBranchName
+08/11/2018 23:37:42- com.Base.Log- ***********************************************************
+08/11/2018 23:37:42- com.Base.Log- ***********************************************************
+08/11/2018 23:37:42- com.Base.Log- /repos/chaitu219/CognitiveTest/branches
+08/11/2018 23:37:44- com.Base.Log- ***** [master]
+08/11/2018 23:37:44- com.Base.Log- Branch name is: master
+08/11/2018 23:37:44- com.Base.Log-  ########## On Test success ########## fetchBranchName
+08/11/2018 23:37:44- com.Base.Log- 
  
 
-26/10/2018 00:23:26- com.Base.Log- 
+08/11/2018 23:37:44- com.Base.Log- 
  
 
-26/10/2018 00:23:26- com.Base.Log- ***********************************************************
-26/10/2018 00:23:26- com.Base.Log- ***********************************************************
-26/10/2018 00:23:26- com.Base.Log- ************** On Test starts *************** createSignUp
-26/10/2018 00:23:26- com.Base.Log- ***********************************************************
-26/10/2018 00:23:26- com.Base.Log- ***********************************************************
-26/10/2018 00:23:26- com.Base.Log- Create signup without password
-26/10/2018 00:23:28- com.Base.Log- Enter username as: qweasd198
-26/10/2018 00:23:28- com.Base.Log- Enter Email as: qweasd198@gmail.com
-26/10/2018 00:23:28- com.Base.Log- Enter Password as: 
-26/10/2018 00:23:28- com.Base.Log- **------** Submit button is not enabled to click **------**
-26/10/2018 00:23:28- com.Base.Log- Verify error message as: 
-26/10/2018 00:23:28- com.Base.Log-  ########## On Test success ########## createSignUp
-26/10/2018 00:23:28- com.Base.Log- 
+08/11/2018 23:37:44- com.Base.Log- ***********************************************************
+08/11/2018 23:37:44- com.Base.Log- ***********************************************************
+08/11/2018 23:37:44- com.Base.Log- ************** On Test starts *************** fetchBranchByName
+08/11/2018 23:37:44- com.Base.Log- ***********************************************************
+08/11/2018 23:37:44- com.Base.Log- ***********************************************************
+08/11/2018 23:37:44- com.Base.Log- /repos/chaitu219/CognitiveTest/branches/master
+08/11/2018 23:37:45- com.Base.Log- Author is: chaitu219
+08/11/2018 23:37:45- com.Base.Log-  ########## On Test success ########## fetchBranchByName
+08/11/2018 23:37:45- com.Base.Log- 
  
 
-26/10/2018 00:23:28- com.Base.Log- 
+08/11/2018 23:37:45- com.Base.Log-  ------------ Execution ends -------------
+08/11/2018 23:37:45- com.Base.Log- ===============================================================
+08/11/2018 23:37:45- com.Base.Log- =====================Tests finished===========================
+08/11/2018 23:37:45- com.Base.Log- ===== Test Passed ===== [ResultMap map={[TestResult name=fetchBranchData status=SUCCESS method=GitRepoTest.fetchBranchData(java.lang.String)[pri:0, instance:APITest.GitRepoTest@5ae9a829] output={null}]=GitRepoTest.fetchBranchData(java.lang.String)[pri:0, instance:APITest.GitRepoTest@5ae9a829], [TestResult name=fetchBranchData status=SUCCESS method=GitRepoTest.fetchBranchData(java.lang.String)[pri:0, instance:APITest.GitRepoTest@5ae9a829] output={null}]=GitRepoTest.fetchBranchData(java.lang.String)[pri:0, instance:APITest.GitRepoTest@5ae9a829], [TestResult name=fetchBranchByName status=SUCCESS method=GitRepoTest.fetchBranchByName()[pri:0, instance:APITest.GitRepoTest@5ae9a829] output={null}]=GitRepoTest.fetchBranchByName()[pri:0, instance:APITest.GitRepoTest@5ae9a829], [TestResult name=fetchBranchName status=SUCCESS method=GitRepoTest.fetchBranchName()[pri:1, instance:APITest.GitRepoTest@5ae9a829] output={null}]=GitRepoTest.fetchBranchName()[pri:1, instance:APITest.GitRepoTest@5ae9a829], [TestResult name=fetchBranchData status=SUCCESS method=GitRepoTest.fetchBranchData(java.lang.String)[pri:0, instance:APITest.GitRepoTest@5ae9a829] output={null}]=GitRepoTest.fetchBranchData(java.lang.String)[pri:0, instance:APITest.GitRepoTest@5ae9a829]}] ===========
+08/11/2018 23:37:45- com.Base.Log- ===== Test Failed ===== [ResultMap map={}] ===========
+08/11/2018 23:37:45- com.Base.Log- ===============================================================
+08/11/2018 23:37:45- com.Base.Log- 
  
 
-26/10/2018 00:23:28- com.Base.Log- ***********************************************************
-26/10/2018 00:23:28- com.Base.Log- ***********************************************************
-26/10/2018 00:23:28- com.Base.Log- ************** On Test starts *************** createSignUp
-26/10/2018 00:23:28- com.Base.Log- ***********************************************************
-26/10/2018 00:23:28- com.Base.Log- ***********************************************************
-26/10/2018 00:23:28- com.Base.Log- Create signup without username
-26/10/2018 00:23:30- com.Base.Log- Enter username as: 
-26/10/2018 00:23:31- com.Base.Log- Enter Email as: qweasd198@gmail.com
-26/10/2018 00:23:31- com.Base.Log- Enter Password as: qweasd198
-26/10/2018 00:23:31- com.Base.Log- **------** Submit button is not enabled to click **------**
-26/10/2018 00:23:31- com.Base.Log- Verify error message as: 
-26/10/2018 00:23:31- com.Base.Log-  ########## On Test success ########## createSignUp
-26/10/2018 00:23:31- com.Base.Log- 
+08/11/2018 23:37:45- com.Base.Log- ######################## Web Report URL: ########################
+08/11/2018 23:37:45- com.Base.Log- C:\Users\kakarc\workspace\SleniumCucumber\CognitiveTest/Reports/Report_081118_1541700456215.html
+08/11/2018 23:37:45- com.Base.Log- ######################## Web Report URL: ########################
+08/11/2018 23:37:45- com.Base.Log- 
  
 
-26/10/2018 00:23:31- com.Base.Log- 
+08/11/2018 23:37:45- com.Base.Log- 
  
 
-26/10/2018 00:23:31- com.Base.Log- ***********************************************************
-26/10/2018 00:23:31- com.Base.Log- ***********************************************************
-26/10/2018 00:23:31- com.Base.Log- ************** On Test starts *************** createSignUp
-26/10/2018 00:23:31- com.Base.Log- ***********************************************************
-26/10/2018 00:23:31- com.Base.Log- ***********************************************************
-26/10/2018 00:23:31- com.Base.Log- Create signup without email
-26/10/2018 00:23:33- com.Base.Log- Enter username as: qweasd198
-26/10/2018 00:23:33- com.Base.Log- Enter Email as: 
-26/10/2018 00:23:33- com.Base.Log- Enter Password as: qweasd198
-26/10/2018 00:23:33- com.Base.Log- **------** Submit button is not enabled to click **------**
-26/10/2018 00:23:33- com.Base.Log- Verify error message as: 
-26/10/2018 00:23:33- com.Base.Log-  ########## On Test success ########## createSignUp
-26/10/2018 00:23:33- com.Base.Log- 
+08/11/2018 23:37:45- com.Base.Log- ********* Test class starts ********** class org.testng.TestRunner
+08/11/2018 23:37:45- com.Base.Log- 
  
 
-26/10/2018 00:23:33- com.Base.Log- 
+08/11/2018 23:37:45- com.Base.Log- **** Browser Launching ***** 
+08/11/2018 23:37:51- com.Base.Log- **** Navigating to URL ***** https://github.com/join
+08/11/2018 23:37:54- com.Base.Log- 
  
 
-26/10/2018 00:23:33- com.Base.Log- ***********************************************************
-26/10/2018 00:23:33- com.Base.Log- ***********************************************************
-26/10/2018 00:23:33- com.Base.Log- ************** On Test starts *************** createSignUp
-26/10/2018 00:23:33- com.Base.Log- ***********************************************************
-26/10/2018 00:23:33- com.Base.Log- ***********************************************************
-26/10/2018 00:23:33- com.Base.Log- Create signup with valid user& pwd as same as username with valid email
-26/10/2018 00:23:35- com.Base.Log- Enter username as: qweasdz198
-26/10/2018 00:23:36- com.Base.Log- Enter Email as: qweasd198@gmail.com
-26/10/2018 00:23:36- com.Base.Log- Enter Password as: qweasd198
-26/10/2018 00:23:37- com.Base.Log- Verify error message as: Password can't be your username
-26/10/2018 00:23:37- com.Base.Log-  ########## On Test success ########## createSignUp
-26/10/2018 00:23:37- com.Base.Log- 
+08/11/2018 23:37:54- com.Base.Log- ***********************************************************
+08/11/2018 23:37:54- com.Base.Log- ***********************************************************
+08/11/2018 23:37:54- com.Base.Log- ************** On Test starts *************** createSignUp
+08/11/2018 23:37:54- com.Base.Log- ***********************************************************
+08/11/2018 23:37:54- com.Base.Log- ***********************************************************
+08/11/2018 23:37:54- com.Base.Log- Create signup with existing UserID
+08/11/2018 23:37:56- com.Base.Log- Enter username as: abc123
+08/11/2018 23:37:57- com.Base.Log- Enter Email as: qweasd198
+08/11/2018 23:37:57- com.Base.Log- Enter Password as: qweasd198
+08/11/2018 23:38:02- com.Base.Log- Verify error message as: Login is already taken
+08/11/2018 23:38:02- com.Base.Log-  ########## On Test success ########## createSignUp
+08/11/2018 23:38:02- com.Base.Log- 
  
 
-26/10/2018 00:23:37- com.Base.Log- 
+08/11/2018 23:38:02- com.Base.Log- 
  
 
-26/10/2018 00:23:37- com.Base.Log- ***********************************************************
-26/10/2018 00:23:37- com.Base.Log- ***********************************************************
-26/10/2018 00:23:37- com.Base.Log- ************** On Test starts *************** createSignUp
-26/10/2018 00:23:37- com.Base.Log- ***********************************************************
-26/10/2018 00:23:37- com.Base.Log- ***********************************************************
-26/10/2018 00:23:37- com.Base.Log- Create signup with valid user,email & pwd
-26/10/2018 00:23:39- com.Base.Log- Enter username as: qweasdz198
-26/10/2018 00:23:40- com.Base.Log- Enter Email as: qweasd198@gmail.com
-26/10/2018 00:23:40- com.Base.Log- Enter Password as: testasd123
-26/10/2018 00:23:42- com.Base.Log- Verify error message as: 
-26/10/2018 00:23:42- com.Base.Log-  ########## On Test success ########## createSignUp
-26/10/2018 00:23:42- com.Base.Log- 
+08/11/2018 23:38:02- com.Base.Log- ***********************************************************
+08/11/2018 23:38:02- com.Base.Log- ***********************************************************
+08/11/2018 23:38:02- com.Base.Log- ************** On Test starts *************** createSignUp
+08/11/2018 23:38:02- com.Base.Log- ***********************************************************
+08/11/2018 23:38:02- com.Base.Log- ***********************************************************
+08/11/2018 23:38:02- com.Base.Log- Create signup with Invalid/Existing email
+08/11/2018 23:38:04- com.Base.Log- Enter username as: qweasd198
+08/11/2018 23:38:04- com.Base.Log- Enter Email as: abc123@gmail.com
+08/11/2018 23:38:04- com.Base.Log- Enter Password as: qweasd198
+08/11/2018 23:38:09- com.Base.Log- Verify error message as: Email is invalid or already taken
+08/11/2018 23:38:09- com.Base.Log-  ########## On Test success ########## createSignUp
+08/11/2018 23:38:09- com.Base.Log- 
  
 
-26/10/2018 00:23:42- com.Base.Log- 
+08/11/2018 23:38:09- com.Base.Log- 
  
 
-26/10/2018 00:23:42- com.Base.Log- ***********************************************************
-26/10/2018 00:23:42- com.Base.Log- ***********************************************************
-26/10/2018 00:23:42- com.Base.Log- ************** On Test starts *************** validSignup
-26/10/2018 00:23:42- com.Base.Log- ***********************************************************
-26/10/2018 00:23:42- com.Base.Log- ***********************************************************
-26/10/2018 00:23:52- com.Base.Log- 
+08/11/2018 23:38:09- com.Base.Log- ***********************************************************
+08/11/2018 23:38:09- com.Base.Log- ***********************************************************
+08/11/2018 23:38:09- com.Base.Log- ************** On Test starts *************** createSignUp
+08/11/2018 23:38:09- com.Base.Log- ***********************************************************
+08/11/2018 23:38:09- com.Base.Log- ***********************************************************
+08/11/2018 23:38:09- com.Base.Log- Create signup with password contains only alphabets
+08/11/2018 23:38:11- com.Base.Log- Enter username as: qweasd198
+08/11/2018 23:38:11- com.Base.Log- Enter Email as: qweasd198@gmail.com
+08/11/2018 23:38:12- com.Base.Log- Enter Password as: abcdefg
+08/11/2018 23:38:17- com.Base.Log- Verify error message as: Password needs at least one number
+08/11/2018 23:38:27- com.Base.Log-  ########## On Test success ########## createSignUp
+08/11/2018 23:38:27- com.Base.Log- 
  
 
-26/10/2018 00:23:52- com.Base.Log- ----------------------------------------- 
-26/10/2018 00:23:52- com.Base.Log- ---------- On Test fails Start ------------ validSignup
-26/10/2018 00:23:53- com.Base.Log- ---------- On Test fails Ends ----------
-26/10/2018 00:23:53- com.Base.Log- ----------------------------------------- 
-26/10/2018 00:23:53- com.Base.Log- 
+08/11/2018 23:38:27- com.Base.Log- 
  
 
-26/10/2018 00:23:53- com.Base.Log- ****************************  Closing browser **************************************** 
-26/10/2018 00:23:53- com.Base.Log- 
+08/11/2018 23:38:27- com.Base.Log- ***********************************************************
+08/11/2018 23:38:27- com.Base.Log- ***********************************************************
+08/11/2018 23:38:27- com.Base.Log- ************** On Test starts *************** createSignUp
+08/11/2018 23:38:27- com.Base.Log- ***********************************************************
+08/11/2018 23:38:27- com.Base.Log- ***********************************************************
+08/11/2018 23:38:27- com.Base.Log- Create signup with password contains only numbers
+08/11/2018 23:38:29- com.Base.Log- Enter username as: qweasd198
+08/11/2018 23:38:29- com.Base.Log- Enter Email as: qweasd198@gmail.com
+08/11/2018 23:38:29- com.Base.Log- Enter Password as: 2132132
+08/11/2018 23:38:34- com.Base.Log- Verify error message as: Password needs at least one lowercase letter
+08/11/2018 23:38:44- com.Base.Log-  ########## On Test success ########## createSignUp
+08/11/2018 23:38:44- com.Base.Log- 
  
 
-26/10/2018 00:23:53- com.Base.Log- ===============================================================
-26/10/2018 00:23:53- com.Base.Log- =====================Tests finished===========================
-26/10/2018 00:23:53- com.Base.Log- ===== Test Passed ===== [ResultMap map={[TestResult name=createSignUp status=SUCCESS method=SignUpTest.createSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.CognitiveScale.SignUpTest@1efbd816] output={null}]=SignUpTest.createSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.CognitiveScale.SignUpTest@1efbd816], [TestResult name=createSignUp status=SUCCESS method=SignUpTest.createSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.CognitiveScale.SignUpTest@1efbd816] output={null}]=SignUpTest.createSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.CognitiveScale.SignUpTest@1efbd816], [TestResult name=createSignUp status=SUCCESS method=SignUpTest.createSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.CognitiveScale.SignUpTest@1efbd816] output={null}]=SignUpTest.createSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.CognitiveScale.SignUpTest@1efbd816], [TestResult name=createSignUp status=SUCCESS method=SignUpTest.createSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.CognitiveScale.SignUpTest@1efbd816] output={null}]=SignUpTest.createSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.CognitiveScale.SignUpTest@1efbd816], [TestResult name=createSignUp status=SUCCESS method=SignUpTest.createSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.CognitiveScale.SignUpTest@1efbd816] output={null}]=SignUpTest.createSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.CognitiveScale.SignUpTest@1efbd816], [TestResult name=createSignUp status=SUCCESS method=SignUpTest.createSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.CognitiveScale.SignUpTest@1efbd816] output={null}]=SignUpTest.createSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.CognitiveScale.SignUpTest@1efbd816], [TestResult name=createSignUp status=SUCCESS method=SignUpTest.createSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.CognitiveScale.SignUpTest@1efbd816] output={null}]=SignUpTest.createSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.CognitiveScale.SignUpTest@1efbd816], [TestResult name=createSignUp status=SUCCESS method=SignUpTest.createSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.CognitiveScale.SignUpTest@1efbd816] output={null}]=SignUpTest.createSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.CognitiveScale.SignUpTest@1efbd816], [TestResult name=createSignUp status=SUCCESS method=SignUpTest.createSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.CognitiveScale.SignUpTest@1efbd816] output={null}]=SignUpTest.createSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.CognitiveScale.SignUpTest@1efbd816]}] ===========
-26/10/2018 00:23:53- com.Base.Log- ===== Test Failed ===== [ResultMap map={[TestResult name=validSignup status=FAILURE method=SignUpTest.validSignup()[pri:1, instance:com.CognitiveScale.SignUpTest@1efbd816] output={null}]=SignUpTest.validSignup()[pri:1, instance:com.CognitiveScale.SignUpTest@1efbd816]}] ===========
-26/10/2018 00:23:53- com.Base.Log- ===============================================================
-26/10/2018 00:23:53- com.Base.Log- 
+08/11/2018 23:38:44- com.Base.Log- 
  
 
-26/10/2018 00:23:53- com.Base.Log- ######################## Web Report URL: ########################
-26/10/2018 00:23:53- com.Base.Log- C:\Users\kakarc\workspace\SleniumCucumber\CognitiveTest/Reports/Report_261018_1540493574984.html
-26/10/2018 00:23:53- com.Base.Log- ######################## Web Report URL: ########################
-26/10/2018 00:23:53- com.Base.Log- 
+08/11/2018 23:38:44- com.Base.Log- ***********************************************************
+08/11/2018 23:38:44- com.Base.Log- ***********************************************************
+08/11/2018 23:38:44- com.Base.Log- ************** On Test starts *************** createSignUp
+08/11/2018 23:38:44- com.Base.Log- ***********************************************************
+08/11/2018 23:38:44- com.Base.Log- ***********************************************************
+08/11/2018 23:38:44- com.Base.Log- Create signup without password
+08/11/2018 23:38:46- com.Base.Log- Enter username as: qweasd198
+08/11/2018 23:38:46- com.Base.Log- Enter Email as: qweasd198@gmail.com
+08/11/2018 23:38:46- com.Base.Log- Enter Password as: 
+08/11/2018 23:38:47- com.Base.Log- **------** Submit button is not enabled to click **------**
+08/11/2018 23:38:47- com.Base.Log- Verify error message as: 
+08/11/2018 23:38:47- com.Base.Log-  ########## On Test success ########## createSignUp
+08/11/2018 23:38:47- com.Base.Log- 
+ 
+
+08/11/2018 23:38:47- com.Base.Log- 
+ 
+
+08/11/2018 23:38:47- com.Base.Log- ***********************************************************
+08/11/2018 23:38:47- com.Base.Log- ***********************************************************
+08/11/2018 23:38:47- com.Base.Log- ************** On Test starts *************** createSignUp
+08/11/2018 23:38:47- com.Base.Log- ***********************************************************
+08/11/2018 23:38:47- com.Base.Log- ***********************************************************
+08/11/2018 23:38:47- com.Base.Log- Create signup without username
+08/11/2018 23:38:49- com.Base.Log- Enter username as: 
+08/11/2018 23:38:49- com.Base.Log- Enter Email as: qweasd198@gmail.com
+08/11/2018 23:38:49- com.Base.Log- Enter Password as: qweasd198
+08/11/2018 23:38:49- com.Base.Log- **------** Submit button is not enabled to click **------**
+08/11/2018 23:38:49- com.Base.Log- Verify error message as: 
+08/11/2018 23:38:49- com.Base.Log-  ########## On Test success ########## createSignUp
+08/11/2018 23:38:49- com.Base.Log- 
+ 
+
+08/11/2018 23:38:49- com.Base.Log- 
+ 
+
+08/11/2018 23:38:49- com.Base.Log- ***********************************************************
+08/11/2018 23:38:49- com.Base.Log- ***********************************************************
+08/11/2018 23:38:49- com.Base.Log- ************** On Test starts *************** createSignUp
+08/11/2018 23:38:49- com.Base.Log- ***********************************************************
+08/11/2018 23:38:49- com.Base.Log- ***********************************************************
+08/11/2018 23:38:49- com.Base.Log- Create signup without email
+08/11/2018 23:38:51- com.Base.Log- Enter username as: qweasd198
+08/11/2018 23:38:51- com.Base.Log- Enter Email as: 
+08/11/2018 23:38:51- com.Base.Log- Enter Password as: qweasd198
+08/11/2018 23:38:52- com.Base.Log- **------** Submit button is not enabled to click **------**
+08/11/2018 23:38:52- com.Base.Log- Verify error message as: 
+08/11/2018 23:38:52- com.Base.Log-  ########## On Test success ########## createSignUp
+08/11/2018 23:38:52- com.Base.Log- 
+ 
+
+08/11/2018 23:38:52- com.Base.Log- 
+ 
+
+08/11/2018 23:38:52- com.Base.Log- ***********************************************************
+08/11/2018 23:38:52- com.Base.Log- ***********************************************************
+08/11/2018 23:38:52- com.Base.Log- ************** On Test starts *************** createSignUp
+08/11/2018 23:38:52- com.Base.Log- ***********************************************************
+08/11/2018 23:38:52- com.Base.Log- ***********************************************************
+08/11/2018 23:38:52- com.Base.Log- Create signup with valid user& pwd as same as username with valid email
+08/11/2018 23:38:54- com.Base.Log- Enter username as: qweasdz198
+08/11/2018 23:38:54- com.Base.Log- Enter Email as: qweasd198@gmail.com
+08/11/2018 23:38:54- com.Base.Log- Enter Password as: qweasd198
+08/11/2018 23:38:59- com.Base.Log- Verify error message as: Password can't be your username
+08/11/2018 23:38:59- com.Base.Log-  ########## On Test success ########## createSignUp
+08/11/2018 23:38:59- com.Base.Log- 
+ 
+
+08/11/2018 23:38:59- com.Base.Log- 
+ 
+
+08/11/2018 23:38:59- com.Base.Log- ***********************************************************
+08/11/2018 23:38:59- com.Base.Log- ***********************************************************
+08/11/2018 23:38:59- com.Base.Log- ************** On Test starts *************** createSignUp
+08/11/2018 23:38:59- com.Base.Log- ***********************************************************
+08/11/2018 23:38:59- com.Base.Log- ***********************************************************
+08/11/2018 23:38:59- com.Base.Log- Create signup with valid user,email & pwd
+08/11/2018 23:39:01- com.Base.Log- Enter username as: qweasdz198
+08/11/2018 23:39:01- com.Base.Log- Enter Email as: qweasd198@gmail.com
+08/11/2018 23:39:01- com.Base.Log- Enter Password as: testasd123
+08/11/2018 23:39:03- com.Base.Log- Verify error message as: 
+08/11/2018 23:39:03- com.Base.Log-  ########## On Test success ########## createSignUp
+08/11/2018 23:39:03- com.Base.Log- 
+ 
+
+08/11/2018 23:39:03- com.Base.Log- 
+ 
+
+08/11/2018 23:39:03- com.Base.Log- ***********************************************************
+08/11/2018 23:39:03- com.Base.Log- ***********************************************************
+08/11/2018 23:39:03- com.Base.Log- ************** On Test starts *************** validSignup
+08/11/2018 23:39:03- com.Base.Log- ***********************************************************
+08/11/2018 23:39:03- com.Base.Log- ***********************************************************
+08/11/2018 23:39:13- com.Base.Log- 
+ 
+
+08/11/2018 23:39:13- com.Base.Log- ----------------------------------------- 
+08/11/2018 23:39:13- com.Base.Log- ---------- On Test fails Start ------------ validSignup
+08/11/2018 23:39:14- com.Base.Log- ---------- On Test fails Ends ----------
+08/11/2018 23:39:14- com.Base.Log- ----------------------------------------- 
+08/11/2018 23:39:14- com.Base.Log- 
+ 
+
+08/11/2018 23:39:14- com.Base.Log- ****************************  Closing browser **************************************** 
+08/11/2018 23:39:14- com.Base.Log- 
+ 
+
+08/11/2018 23:39:14- com.Base.Log- ===============================================================
+08/11/2018 23:39:14- com.Base.Log- =====================Tests finished===========================
+08/11/2018 23:39:14- com.Base.Log- ===== Test Passed ===== [ResultMap map={[TestResult name=createSignUp status=SUCCESS method=SignUpTest.createSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.CognitiveScale.SignUpTest@68be2bc2] output={null}]=SignUpTest.createSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.CognitiveScale.SignUpTest@68be2bc2], [TestResult name=createSignUp status=SUCCESS method=SignUpTest.createSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.CognitiveScale.SignUpTest@68be2bc2] output={null}]=SignUpTest.createSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.CognitiveScale.SignUpTest@68be2bc2], [TestResult name=createSignUp status=SUCCESS method=SignUpTest.createSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.CognitiveScale.SignUpTest@68be2bc2] output={null}]=SignUpTest.createSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.CognitiveScale.SignUpTest@68be2bc2], [TestResult name=createSignUp status=SUCCESS method=SignUpTest.createSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.CognitiveScale.SignUpTest@68be2bc2] output={null}]=SignUpTest.createSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.CognitiveScale.SignUpTest@68be2bc2], [TestResult name=createSignUp status=SUCCESS method=SignUpTest.createSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.CognitiveScale.SignUpTest@68be2bc2] output={null}]=SignUpTest.createSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.CognitiveScale.SignUpTest@68be2bc2], [TestResult name=createSignUp status=SUCCESS method=SignUpTest.createSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.CognitiveScale.SignUpTest@68be2bc2] output={null}]=SignUpTest.createSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.CognitiveScale.SignUpTest@68be2bc2], [TestResult name=createSignUp status=SUCCESS method=SignUpTest.createSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.CognitiveScale.SignUpTest@68be2bc2] output={null}]=SignUpTest.createSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.CognitiveScale.SignUpTest@68be2bc2], [TestResult name=createSignUp status=SUCCESS method=SignUpTest.createSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.CognitiveScale.SignUpTest@68be2bc2] output={null}]=SignUpTest.createSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.CognitiveScale.SignUpTest@68be2bc2], [TestResult name=createSignUp status=SUCCESS method=SignUpTest.createSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.CognitiveScale.SignUpTest@68be2bc2] output={null}]=SignUpTest.createSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.CognitiveScale.SignUpTest@68be2bc2]}] ===========
+08/11/2018 23:39:14- com.Base.Log- ===== Test Failed ===== [ResultMap map={[TestResult name=validSignup status=FAILURE method=SignUpTest.validSignup()[pri:1, instance:com.CognitiveScale.SignUpTest@68be2bc2] output={null}]=SignUpTest.validSignup()[pri:1, instance:com.CognitiveScale.SignUpTest@68be2bc2]}] ===========
+08/11/2018 23:39:14- com.Base.Log- ===============================================================
+08/11/2018 23:39:14- com.Base.Log- 
+ 
+
+08/11/2018 23:39:15- com.Base.Log- ######################## Web Report URL: ########################
+08/11/2018 23:39:15- com.Base.Log- C:\Users\kakarc\workspace\SleniumCucumber\CognitiveTest/Reports/Report_081118_1541700456215.html
+08/11/2018 23:39:15- com.Base.Log- ######################## Web Report URL: ########################
+08/11/2018 23:39:15- com.Base.Log- 
  
 

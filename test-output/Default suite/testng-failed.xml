@@ -3,13 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.CognitiveScale.SignUpTest">
+      <class name="APITest.GitRepoTest">
         <methods>
-          <include name="test1"/>
-          <include name="launchBrowserWithURL"/>
-          <include name="closeBrowser"/>
+          <include name="fetchBranchByName"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.CognitiveScale.SignUpTest -->
+      </class> <!-- APITest.GitRepoTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

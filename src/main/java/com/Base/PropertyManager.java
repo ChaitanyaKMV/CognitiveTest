@@ -10,8 +10,8 @@ public class PropertyManager {
 	private static PropertyManager instance;
 	Properties prop;
 	static Object lock = new Object();
-	String URL;
-	String browser;
+	String URL,restURL,gitUser,gitPwd;
+	String browser,repoName;
 	int waitSec;
 
 	String filePath = System.getProperty("user.dir") + "/Configurations/config.properties";
@@ -43,6 +43,10 @@ public class PropertyManager {
 		URL = prop.getProperty("gitURL");
 		browser = prop.getProperty("browser", "chrome");
 		waitSec = Integer.parseInt(prop.getProperty("impWaitInSec"));
+		restURL=prop.getProperty("restURL");
+		gitUser=prop.getProperty("gitUser");
+		gitPwd=prop.getProperty("gitPwd");
+		repoName=prop.getProperty("repoName");
 		
 	}
 

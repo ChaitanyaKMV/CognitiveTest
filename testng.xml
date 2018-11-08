@@ -1,12 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Suite">
+<suite name="GitAutomationSuite">
 	<listeners>
 		<listener class-name="com.Base.TestListeners"></listener>
 	</listeners>
-	<test thread-count="5" name="Test">
+
+	<!-- <suite-files> <suite-file path="testng/GitSignUp_Suite_Test.xml"></suite-file> 
+		<suite-file path="testng/API_Suite_Test.xml"></suite-file> </suite-files> -->
+
+
+	<test thread-count="5" name="ApiTest">
+		<classes>
+			<class name="APITest.GitRepoTest" />
+		</classes>
+	</test>
+
+	<test thread-count="5" name="SighnupTest">
 		<classes>
 			<class name="com.CognitiveScale.SignUpTest" />
 		</classes>
-	</test> <!-- Test -->
-</suite> <!-- Suite -->
+	</test>
+
+
+</suite> 

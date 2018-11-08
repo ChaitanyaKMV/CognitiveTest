@@ -1,334 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="10" passed="9">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="51094" started-at="2018-10-23T17:46:05Z" finished-at="2018-10-23T17:46:56Z">
+  <suite name="Suite" duration-ms="9206" started-at="2018-11-08T16:30:37Z" finished-at="2018-11-08T16:30:46Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="51094" started-at="2018-10-23T17:46:05Z" finished-at="2018-10-23T17:46:56Z">
-      <class name="com.CognitiveScale.SignUpTest">
-        <test-method status="PASS" signature="initializeTestBaseSetup()[pri:0, instance:com.CognitiveScale.SignUpTest@56ac3a89]" name="initializeTestBaseSetup" is-config="true" duration-ms="7693" started-at="2018-10-23T17:46:05Z" finished-at="2018-10-23T17:46:13Z">
+    <test name="Test" duration-ms="9206" started-at="2018-11-08T16:30:37Z" finished-at="2018-11-08T16:30:46Z">
+      <class name="APITest.GitRepoTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:APITest.GitRepoTest@13805618]" name="setUp" is-config="true" duration-ms="721" started-at="2018-11-08T16:30:37Z" finished-at="2018-11-08T16:30:37Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initializeTestBaseSetup -->
-        <test-method status="PASS" signature="createSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.CognitiveScale.SignUpTest@56ac3a89]" name="createSignUp" duration-ms="3944" started-at="2018-10-23T17:46:13Z" data-provider="Authentication" finished-at="2018-10-23T17:46:17Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="fetchBranchData(java.lang.String)[pri:0, instance:APITest.GitRepoTest@13805618]" name="fetchBranchData" duration-ms="3470" started-at="2018-11-08T16:30:37Z" data-provider="FetchBranchdetails" finished-at="2018-11-08T16:30:41Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[abc123]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[qweasd198]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[qweasd198]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Login is already taken]]>
+                <![CDATA[name]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createSignUp -->
-        <test-method status="PASS" signature="createSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.CognitiveScale.SignUpTest@56ac3a89]" name="createSignUp" duration-ms="3897" started-at="2018-10-23T17:46:17Z" data-provider="Authentication" finished-at="2018-10-23T17:46:21Z">
+        </test-method> <!-- fetchBranchData -->
+        <test-method status="PASS" signature="fetchBranchData(java.lang.String)[pri:0, instance:APITest.GitRepoTest@13805618]" name="fetchBranchData" duration-ms="1214" started-at="2018-11-08T16:30:41Z" data-provider="FetchBranchdetails" finished-at="2018-11-08T16:30:42Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[qweasd198]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[abc123@gmail.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[qweasd198]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Email is invalid or already taken]]>
+                <![CDATA[commit.sha]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createSignUp -->
-        <test-method status="PASS" signature="createSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.CognitiveScale.SignUpTest@56ac3a89]" name="createSignUp" duration-ms="4191" started-at="2018-10-23T17:46:21Z" data-provider="Authentication" finished-at="2018-10-23T17:46:25Z">
+        </test-method> <!-- fetchBranchData -->
+        <test-method status="PASS" signature="fetchBranchData(java.lang.String)[pri:0, instance:APITest.GitRepoTest@13805618]" name="fetchBranchData" duration-ms="1199" started-at="2018-11-08T16:30:42Z" data-provider="FetchBranchdetails" finished-at="2018-11-08T16:30:43Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[qweasd198]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[qweasd198@gmail.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[abcdefg]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Password needs at least one number]]>
+                <![CDATA[commit.url]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createSignUp -->
-        <test-method status="PASS" signature="createSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.CognitiveScale.SignUpTest@56ac3a89]" name="createSignUp" duration-ms="3921" started-at="2018-10-23T17:46:25Z" data-provider="Authentication" finished-at="2018-10-23T17:46:29Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[qweasd198]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[qweasd198@gmail.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[2132132]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Password needs at least one lowercase letter]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- fetchBranchData -->
+        <test-method status="PASS" signature="fetchBranchName()[pri:1, instance:APITest.GitRepoTest@13805618]" name="fetchBranchName" duration-ms="1206" started-at="2018-11-08T16:30:43Z" finished-at="2018-11-08T16:30:45Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createSignUp -->
-        <test-method status="PASS" signature="createSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.CognitiveScale.SignUpTest@56ac3a89]" name="createSignUp" duration-ms="2462" started-at="2018-10-23T17:46:29Z" data-provider="Authentication" finished-at="2018-10-23T17:46:32Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[qweasd198]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[qweasd198@gmail.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- fetchBranchName -->
+        <test-method status="PASS" signature="fetchBranchByName()[pri:0, instance:APITest.GitRepoTest@13805618]" name="fetchBranchByName" duration-ms="1276" started-at="2018-11-08T16:30:45Z" depends-on-methods="APITest.GitRepoTest.fetchBranchName" finished-at="2018-11-08T16:30:46Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createSignUp -->
-        <test-method status="PASS" signature="createSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.CognitiveScale.SignUpTest@56ac3a89]" name="createSignUp" duration-ms="2424" started-at="2018-10-23T17:46:32Z" data-provider="Authentication" finished-at="2018-10-23T17:46:34Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[qweasd198@gmail.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[qweasd198]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- fetchBranchByName -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:APITest.GitRepoTest@13805618]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-11-08T16:30:46Z" finished-at="2018-11-08T16:30:46Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createSignUp -->
-        <test-method status="PASS" signature="createSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.CognitiveScale.SignUpTest@56ac3a89]" name="createSignUp" duration-ms="2358" started-at="2018-10-23T17:46:34Z" data-provider="Authentication" finished-at="2018-10-23T17:46:36Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[qweasd198]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[qweasd198]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createSignUp -->
-        <test-method status="PASS" signature="createSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.CognitiveScale.SignUpTest@56ac3a89]" name="createSignUp" duration-ms="3926" started-at="2018-10-23T17:46:36Z" data-provider="Authentication" finished-at="2018-10-23T17:46:40Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[qweasdz198]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[qweasd198@gmail.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[qweasd198]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createSignUp -->
-        <test-method status="PASS" signature="createSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.CognitiveScale.SignUpTest@56ac3a89]" name="createSignUp" duration-ms="2352" started-at="2018-10-23T17:46:40Z" data-provider="Authentication" finished-at="2018-10-23T17:46:43Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createSignUp -->
-        <test-method status="FAIL" signature="validSignup()[pri:1, instance:com.CognitiveScale.SignUpTest@56ac3a89]" name="validSignup" duration-ms="10170" started-at="2018-10-23T17:46:43Z" finished-at="2018-10-23T17:46:53Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"skip this step"}
-  (Session info: chrome=70.0.3538.67)
-  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'INENKAKARCL1C', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\kakarc\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52863}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.67, webStorageEnabled: true}
-Session ID: 424ffd4906499fdd19387c3d56779f3c
-*** Element info: {Using=link text, value=skip this step}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"skip this step"}
-  (Session info: chrome=70.0.3538.67)
-  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'INENKAKARCL1C', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\kakarc\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52863}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.67, webStorageEnabled: true}
-Session ID: 424ffd4906499fdd19387c3d56779f3c
-*** Element info: {Using=link text, value=skip this step}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:376)
-at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy10.click(Unknown Source)
-at projUtility.SignUpPage.skipStep(SignUpPage.java:86)
-at com.CognitiveScale.SignUpTest.validSignup(SignUpTest.java:64)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validSignup -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.CognitiveScale.SignUpTest@56ac3a89]" name="closeBrowser" is-config="true" duration-ms="2107" started-at="2018-10-23T17:46:54Z" finished-at="2018-10-23T17:46:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- com.CognitiveScale.SignUpTest -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- APITest.GitRepoTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
